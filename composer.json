@@ -1,0 +1,32 @@
+{
+    "name": "hubware/sonos",
+    "license": "MIT",
+    "type": "library",
+    "description": "SONOS library",
+    "homepage": "https://github.com/hubwareHouse/sonos",
+    "authors": [
+        {
+            "name": "Tobias Kluge",
+            "email": "t.kluge@hubware.house"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "ext-json": "*",
+        "kamermans/guzzle-oauth2-subscriber": "~1.0",
+        "netresearch/jsonmapper": "^1.4",
+        "shrikeh/teapot": "^2.3",
+        "monolog/monolog": "^1.23",
+        "ralouphie/getallheaders": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hubware\\": "src/Hubware",
+            "Hubware\\Gateway\\Sonos\\Test\\": "tests/"
+        }
+    }
+
+}

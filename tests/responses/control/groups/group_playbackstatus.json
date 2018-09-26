@@ -1,0 +1,21 @@
+{
+  "playbackState": "PLAYBACK_STATE_BUFFERING",
+  "queueVersion": "3",
+  "itemId": "abc",
+  "positionMillis": 56750,
+  "playModes": {
+    "repeat": false,
+    "repeatOne": false,
+    "crossfade": true,
+    "shuffle": false
+  },
+  "availablePlaybackActions": {
+    "canSkip": true,
+    "canSkipBack": false,
+    "canSeek": false,
+    "canRepeat": false,
+    "canRepeatOne": false,
+    "canCrossfade": true,
+    "canShuffle": false
+  }
+}

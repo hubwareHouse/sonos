@@ -1,0 +1,8 @@
+POST http://localhost:8888/gw-sonos/tests/web/__api_receiver.php
+Accept: */*
+Cache-Control: no-cache
+
+{"volume":16,"muted":false,"fixed":false}
+
+###
+

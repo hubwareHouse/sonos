@@ -1,0 +1,106 @@
+{
+  "players": [
+    {
+      "id": "RINCON_8HJLQE01RW4B21097",
+      "name": "Playroom",
+      "icon": "playroom",
+      "websocketUrl": "wss://192.168.55.135:1443/websocket/api",
+      "softwareVersion": "38.5-43170-DevPreview",
+      "deviceIds": [
+        "RINCON_8HJLQE01RW4B21097"
+      ],
+      "apiVersion": "1.0.0-DevPreview+1234",
+      "minApiVersion": "1.0.0",
+      "capabilities" : [
+        "PLAYBACK",
+        "CLOUD"
+      ]
+    },
+    {
+      "id": "RINCON_Y6C3211GJ59H88131",
+      "name": "Master Bedroom",
+      "icon": "masterbedroom",
+      "websocketUrl": "wss://192.168.55.176:1443/websocket/api",
+      "softwareVersion": "38.5-43170-DevPreview",
+      "deviceIds": [
+        "RINCON_Y6C3211GJ59H88131"
+      ],
+      "apiVersion": "1.0.0-DevPreview+1234",
+      "minApiVersion": "1.0.0",
+      "capabilities" : [
+        "PLAYBACK",
+        "CLOUD",
+        "AIRPLAY"
+      ]
+    },
+    {
+      "id": "RINCON_B8E9377C21G061890",
+      "name": "Back Porch",
+      "icon": "livingroom",
+      "websocketUrl": "wss://192.168.55.244:1443/websocket/api",
+      "softwareVersion": "38.5-43170-DevPreview",
+      "deviceIds": [
+        "RINCON_B8E9377C21G061890"
+      ],
+      "apiVersion": "1.0.0-DevPreview+1234",
+      "minApiVersion": "1.0.0",
+      "capabilities" : [
+        "PLAYBACK",
+        "CLOUD"
+      ]
+    },
+    {
+      "id": "RINCON_A4E9395C21G061898",
+      "name": "Kitchen",
+      "icon": "kitchen",
+      "websocketUrl": "wss://192.168.55.241:1443/websocket/api",
+      "softwareVersion": "38.5-43170-DevPreview",
+      "deviceIds": [
+        "RINCON_A4E9395C21G061898",
+        "RINCON_B5R0432H68L104369"
+      ],
+      "apiVersion": "1.0.0-DevPreview+1234",
+      "minApiVersion": "1.0.0",
+      "capabilities" : [
+        "PLAYBACK",
+        "CLOUD"
+      ]
+    },
+    {
+      "id": "RINCON_C4T1256L09Q293216",
+      "name": "Sun Room",
+      "icon": "kitchen",
+      "websocketUrl": "wss://192.168.55.187:1443/websocket/api",
+      "softwareVersion": "38.5-43170-DevPreview",
+      "deviceIds": [
+        "RINCON_C4T1256L09Q293216"
+      ],
+      "apiVersion": "1.0.0-DevPreview+1234",
+      "minApiVersion": "1.0.0",
+      "capabilities" : [
+        "PLAYBACK",
+        "CLOUD"
+      ]
+    },
+    {
+      "id": "RINCON_D7Y5432M12H127890",
+      "name": "Family Room",
+      "icon": "familyroom",
+      "websocketUrl": "wss://192.168.55.166:1443/websocket/api",
+      "softwareVersion": "38.5-43170-DevPreview",
+      "deviceIds": [
+        "RINCON_D7Y5432M12H127890",
+        "RINCON_E6O0329J63L098571"
+      ],
+      "apiVersion": "1.0.0-DevPreview+1234",
+      "minApiVersion": "1.0.0",
+      "capabilities" : [
+        "PLAYBACK",
+        "CLOUD",
+        "AIRPLAY",
+        "HT_PLAYBACK",
+        "HT_POWER_STATE"
+      ]
+    }
+  ]
+}
