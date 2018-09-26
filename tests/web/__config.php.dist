@@ -1,0 +1,36 @@
+<?php
+error_reporting(E_ALL); ini_set('display_errors', 1);
+
+require __DIR__ .'/../../vendor/autoload.php';
+
+// TODO fill in the necessary values
+// configured in your sonos developer account, use the values defined in the control integration (tab credentials)
+$clientId = '';
+$clientSecret = '';
+$redirectUri = '';
+
+// TODO this currently needs to be set manually - feel free to add some logic to automatically set + keep it and create a pull request
+// is created/received in api_auth_1_create_access => to be filled in manually for now
+$userKey = '';
+// is received in api_auth_2_create_token.php => to be filled in manually for now,
+// should be refreshed using api_auth_3_refresh_token.php before/when/after it expires
+$accessToken = '';
+// is received in api_auth_2_create_token.php => to be filled in manually for now
+$refreshToken = '';
+
+
+// this is our test sonos player device
+$groupName = $playerName = 'MY SONOS PLAYER';
+
+
+/* just some debug functions used in the api_auth_xxxx.php files */
+
+function dumpGroup(\Hubware\Gateway\Sonos\Model\Control\Group $group, $delay = 5)
+{
+    var_dump($group->getVolume(), $group->getIsFixed(), $group->getIsMute()); flush();
+}
+
+function dumpPlayer(\Hubware\Gateway\Sonos\Model\Control\Player $player, $delay = 5)
+{
+    var_dump($player->getVolume(), $player->getIsFixed(), $player->getIsMute()); flush();
+}

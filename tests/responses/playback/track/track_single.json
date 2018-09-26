@@ -1,0 +1,37 @@
+{
+  "track": {
+    "type": "track",
+    "canSkip": true,
+    "canCrossfade": true,
+    "id": {
+      "serviceId": "example.com",
+      "objectId": "tr12345",
+      "accountId": "acct1234"
+    },
+    "name": "Billie Jean",
+    "imageUrl": "http://images.example.com/art1",
+    "durationMillis": 293000,
+    "trackNumber": 4,
+    "replayGain": -2.96,
+    "artist": {
+      "name": "Michael Jackson",
+      "id": {
+        "serviceId": "example.com",
+        "objectId": "art987"
+      }
+    },
+    "album": {
+      "name": "Thriller",
+      "id": {
+        "serviceId": "example.com",
+        "objectId": "alb6254"
+      },
+      "artist": {
+        "name": "Michael Jackson"
+      },
+      "tags": [
+        "TAG_EXPLICIT"
+      ]
+    }
+  }
+}

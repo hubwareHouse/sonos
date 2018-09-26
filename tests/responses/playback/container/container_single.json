@@ -1,0 +1,13 @@
+{
+  "name": "Bruce Springsteen Radio",
+  "type": "station",
+  "id": {
+    "serviceId": "7",
+    "objectId": "station:52981234"
+  },
+  "service": {
+    "id": "7",
+    "name": "Acme Music Service"
+  },
+  "imageUrl": "http://images.example.com/station_art.jpg"
+}
